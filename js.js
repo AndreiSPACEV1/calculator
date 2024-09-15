@@ -15,5 +15,9 @@ function clearDisplay() {
 }
 
 function calculate() {
-  dispaly.value= eval(dispaly.value);
+  try{dispaly.value= eval(dispaly.value);}
+  catch(Exception e) {
+ dispaly.value= "Error";
+}
+  
 }
