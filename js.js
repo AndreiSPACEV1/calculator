@@ -16,7 +16,7 @@ function clearDisplay() {
 
 function calculate() {
   try{dispaly.value= eval(dispaly.value);}
-  catch(Exception e) {
+  catch() {
  dispaly.value= "Error";
 }
   
