@@ -1,7 +1,7 @@
 const dispaly = document.getElementById("display");
 
 function appendToDisplay(input) {
-  if (dispaly.value === "0") {
+  if (dispaly.value === "0" || display.value === "Error") {
     dispaly.value = "";
   }
   dispaly.value += input;
